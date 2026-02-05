@@ -526,7 +526,7 @@ export default function Home() {
               </Canvas>
             </div>
 
-            <div className="space-y-4 overflow-y-auto max-h-[400px] pr-2">
+            <div className="always-scrollbar space-y-4 overflow-y-scroll max-h-[400px] pr-2">
               <div>
                 <label
                   htmlFor="text-input"
